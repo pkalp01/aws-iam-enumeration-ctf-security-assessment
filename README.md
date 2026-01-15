@@ -68,6 +68,12 @@ Detailed findings and command outputs are documented in the accompanying report.
 - Apply permission boundaries and service control policies
 - Continuously audit IAM permissions and usage patterns
 
+# Redaction
+-All AWS access keys referenced in this assessment were short-lived, lab-issued credentials provided by a controlled training environment.
+-Credentials were temporary and automatically expired when the lab session ended
+-Keys were scoped to a simulated AWS account, not a production environment
+-No long-lived access keys were created, stored, or reused
+
 ## Author
 Kalpesh Parmar  
 Cloud & Application Security  
